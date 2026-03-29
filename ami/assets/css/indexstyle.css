@@ -488,6 +488,72 @@
 
  /* ── Fin Por qué elegirnos ── */
 
+ /* ── Inicio pg Productos ── */
+ .productos-header {
+    color: var(--dark);
+ }
+
+.productos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 30px;
+}
+
+
+.productos-card {
+    background: #F7F2EC;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(61, 53, 53, 0.25);
+
+    display: flex;
+    flex-direction: column;
+
+    min-height: 485px;
+    transition: 0.3s;
+}
+
+.productos-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(61, 53, 53, 0.35);
+}
+
+.productos-card img {
+    width: 100%;
+    height: 270px; 
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.productos-card h3 {
+    font-size: 18px;
+    color: #3D3535;
+    margin-bottom: 10px;
+}
+
+.productos-card p {
+    flex-grow: 1;
+    font-size: 14px;
+    color: #555;
+}
+
+.btn-producto {
+    align-self: center;
+    padding: 8px 18px;
+    background-color: #F2A89E;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.btn-producto:hover {
+    background-color: #e8958a;
+}
+ /* ── Fin de pg Productos ── */
+
  /* ── Footer ── */
  .ami-footer {
      background: var(--dark);
