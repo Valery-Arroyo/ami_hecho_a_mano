@@ -56,13 +56,6 @@
     },
 
     {
-      "nombre": "Dinito",
-      "imagen": "ami/assets/img/Dinito Desarmado V2.jpeg",
-      "precio": "₡XXX",
-      "descripcion": "Detalle tierno y colorido."
-    },
-
-    {
       "nombre": "Dino el Dinosaurio",
       "imagen": "ami/assets/img/Dino Colorido V1.jpeg",
       "precio": "₡XXX",
