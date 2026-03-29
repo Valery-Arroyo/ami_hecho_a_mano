@@ -2,39 +2,21 @@
   "productos": [
     {
       "nombre": "Ami Pelinaranja",
-      "imagen": "img/ami-pelinaranja.jpg",
+      "imagen": "ami/assets/images/Pulpitos.jpeg",
       "precio": "₡6000",
       "descripcion": "Muñeco tejido hecho a mano."
     },
     {
       "nombre": "Bailarina",
-      "imagen": "img/bailarina.jpg",
+      "imagen": "ami/assets/images/Poratadita Sirena.jpeg",
       "precio": "₡6500",
       "descripcion": "Diseño delicado ideal para regalo."
     },
     {
       "nombre": "Cocodrilito",
-      "imagen": "img/cocodrilito.jpg",
+      "imagen": "ami/assets/images/Tortuguita.jpeg",
       "precio": "₡5500",
       "descripcion": "Detalle tierno y colorido."
-    },
-    {
-      "nombre": "Conejita",
-      "imagen": "img/conejita.jpg",
-      "precio": "₡6000",
-      "descripcion": "Perfecta para decorar espacios."
-    },
-    {
-      "nombre": "Dino Cachito",
-      "imagen": "img/dino-cachito.jpg",
-      "precio": "₡7000",
-      "descripcion": "Uno de los favoritos."
-    },
-    {
-      "nombre": "Hamstercito",
-      "imagen": "img/hamstercito.jpg",
-      "precio": "₡5000",
-      "descripcion": "Pequeño pero adorable."
     }
   ]
 }
