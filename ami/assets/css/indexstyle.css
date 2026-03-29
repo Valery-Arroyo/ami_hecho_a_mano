@@ -645,4 +645,28 @@
      color: var(--rose);
  }
 
+ .footer-text {
+    color: rgba(255,255,255,.45);
+    font-size: .85rem;
+    line-height: 1.6;
+}
+
+.footer-text-small {
+    color: rgba(255,255,255,.45);
+    font-size: .82rem;
+}
+
+/* iconos */
+.icon-wsp {
+    color: #25D366;
+}
+
+.icon-mail {
+    color: var(--rose);
+}
+
+.icon-location {
+    color: var(--yellow);
+}
+
  /* ── Fin del Footer ── */
