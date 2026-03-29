@@ -57,55 +57,6 @@
 
     {
       "nombre": "Dinito",
-      "imagen": "ami/assets/img/Dinito Vista 2.jpeg",
-      "precio": "₡XXX",
-      "descripcion": "Interactivo y creativo, perfecto para jugar y armar."
-    },
-
-    {
-      "nombre": "Dinito",
-      "imagen": "ami/assets/img/Dinito Vista 3.jpeg",
-      "precio": "₡XXX",
-      "descripcion": "Vibrante y divertido, lleno de vida y color."
-    },
-
-    {
-      "nombre": "Dinito",
-      "imagen": "ami/assets/img/Dinito Vista 3.jpeg",
-      "precio": "₡XXX",
-      "descripcion": "Detalle tierno y colorido."
-    },
-
-    {
-      "nombre": "Dinito",
-      "imagen": "ami/assets/img/Dinito Vista 4.jpeg",
-      "precio": "₡XXX",
-      "descripcion": "Detalle tierno y colorido."
-    },
-
-    {
-      "nombre": "Dinito",
-      "imagen": "ami/assets/img/Dinito Vista 5.jpeg",
-      "precio": "₡XXX",
-      "descripcion": "Detalle tierno y colorido."
-    },
-
-    {
-      "nombre": "Dinito",
-      "imagen": "ami/assets/img/Dinito Vista 6.jpeg",
-      "precio": "₡XXX",
-      "descripcion": "Detalle tierno y colorido."
-    },
-
-    {
-      "nombre": "Dinito",
-      "imagen": "ami/assets/img/Dinito Desarmado V1.jpeg",
-      "precio": "₡XXX",
-      "descripcion": "Detalle tierno y colorido."
-    },
-
-    {
-      "nombre": "Dinito",
       "imagen": "ami/assets/img/Dinito Desarmado V2.jpeg",
       "precio": "₡XXX",
       "descripcion": "Detalle tierno y colorido."
@@ -118,44 +69,10 @@
       "descripcion": "Detalle tierno y colorido."
     },
 
-    {
-      "nombre": "Dinito Colorido",
-      "imagen": "ami/assets/img/Dino Colorido V2.jpeg",
-      "precio": "₡XXX",
-      "descripcion": "Detalle tierno y colorido."
-    },
-
-    {
-      "nombre": "Dinito Colorido",
-      "imagen": "ami/assets/img/Dino Colorido V3.jpeg",
-      "precio": "₡XXX",
-      "descripcion": "Detalle tierno y colorido."
-    },
-
-    {
-      "nombre": "Dinito Colorido",
-      "imagen": "ami/assets/img/Dino Colorido V4.jpeg",
-      "precio": "₡XXX",
-      "descripcion": "Detalle tierno y colorido."
-    },
 
     {
       "nombre": "Dinito con Gorrito",
       "imagen": "ami/assets/img/Dino Gorrito V1.jpeg",
-      "precio": "₡XXX",
-      "descripcion": "Detalle tierno y colorido."
-    },
-
-    {
-      "nombre": "Dinito con Gorrito",
-      "imagen": "ami/assets/img/Dino Gorrito V2.jpeg",
-      "precio": "₡XXX",
-      "descripcion": "Detalle tierno y colorido."
-    },
-
-    {
-      "nombre": "Dinito con Gorrito",
-      "imagen": "ami/assets/img/Dino Gorrito V3.jpeg",
       "precio": "₡XXX",
       "descripcion": "Detalle tierno y colorido."
     },
@@ -172,13 +89,6 @@
       "imagen": "ami/assets/img/Grupito de AMIs V1.jpeg",
       "precio": "₡XXX",
       "descripcion": "Colección de personajes únicos hechos con dedicación."
-    },
-
-    {
-      "nombre": "AMIS",
-      "imagen": "ami/assets/img/Grupito AMIs V2.jpeg",
-      "precio": "₡XXX",
-      "descripcion": "Detalle tierno y colorido."
     },
 
     {
@@ -217,35 +127,24 @@
     },
 
     {
-      "nombre": "Mounstrito",
-      "imagen": "ami/assets/img/Mounstrito.jpeg",
+      "nombre": "Mounstruito",
+      "imagen": "ami/assets/img/Mounstruito.jpeg",
       "precio": "₡XXX",
       "descripcion": "Divertido y travieso, perfecto para quienes aman lo diferente."
     },
-
-        {
-      "nombre": "Muñe Pelinegra",
-      "imagen": "ami/assets/img/Muñe Pelinegra V1.jpeg",
-      "descripcion": "Muñeca tejida con estilo único y delicado."
-    },
     
     {
-      "nombre": "Muñe Pelinegra",
+      "nombre": "Muñequita Pelinegra",
       "imagen": "ami/assets/img/Muñe Pelinegra V2.jpeg",
       "descripcion": "Versión alternativa con detalles encantadores."
     },
     
     {
-      "nombre": "Muñe Peliroja",
+      "nombre": "Muñequita Peliroja",
       "imagen": "ami/assets/img/Muñe Peliroja V1.jpeg",
       "descripcion": "Color vibrante que transmite alegría y calidez."
     },
     
-    {
-      "nombre": "Muñe Peliroja",
-      "imagen": "ami/assets/img/Muñe Peliroja V2.jpeg",
-      "descripcion": "Diseño tierno ideal para regalar."
-    },
     {
       "nombre": "Osita",
       "imagen": "ami/assets/img/Osita.jpeg",
@@ -259,31 +158,9 @@
     },
     
     {
-      "nombre": "Paulita",
-      "imagen": "ami/assets/img/Paulita V1.jpeg",
-      "descripcion": "Hecha con amor y detalles únicos."
-    },
-    
-    {
-      "nombre": "Paulita",
-      "imagen": "ami/assets/img/Paulita V2.jpeg",
-      "descripcion": "Versión especial con estilo encantador."
-    },
-    {
       "nombre": "Perrito",
       "imagen": "ami/assets/img/Perrito.jpeg",
       "descripcion": "Fiel, tierno y listo para acompañarte."
-    },
-    
-    {
-      "nombre": "Sirenita",
-      "imagen": "ami/assets/img/Poratadita Sirena.jpeg",
-      "descripcion": "Inspirada en el mar, llena de magia."
-    },
-    {
-      "nombre": "Pulpitos",
-      "imagen": "ami/assets/img/Pulpitos.jpeg",
-      "descripcion": "Coloridos y adorables, ideales para todos."
     },
     
     {
@@ -329,7 +206,7 @@
 
     {
       "nombre": "Salchichita",
-      "imagen": "ami/assets/img/Salchichita.jpeg",
+      "imagen": "ami/assets/img/Salchichita.jpg",
       "descripcion": "Simple, especial y auténtica."
     },
 
