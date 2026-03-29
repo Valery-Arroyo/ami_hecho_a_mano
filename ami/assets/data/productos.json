@@ -81,14 +81,14 @@
       "nombre": "AMI's",
       "imagen": "ami/assets/img/Grupito de AMIs V1.jpeg",
       "precio": "₡XXX",
-      "descripcion": "Colección de personajes únicos hechos con dedicación."
+      "descripcion": "Dicen que cada uno nació con una historia distinta, pero todos comparten el mismo deseo: encontrar a alguien que los haga parte de su mundo. No son solo muñequitos… son pequeños compañeros esperando ser elegidos."
     },
 
     {
-      "nombre": "Dinomóvil",
+      "nombre": "Dino-deco",
       "imagen": "ami/assets/img/Grupito Dinos.jpeg",
       "precio": "₡XXX",
-      "descripcion": "Creativo y divertido, combina imaginación y ternura."
+      "descripcion": "Suspendidos entre colores y sueños, estos dinos cuidan cada momento con su energía juguetona. Donde están ellos, siempre hay imaginación."
     },
 
     {
@@ -129,13 +129,13 @@
     {
       "nombre": "Muñequita Pelinegra",
       "imagen": "ami/assets/img/Muñe Pelinegra V2.jpeg",
-      "descripcion": "Versión alternativa con detalles encantadores."
+      "descripcion": "Le gusta la calma y los momentos tranquilos. Guarda pequeños secretos en silencio… y solo se abre con quien sabe querer bonito"
     },
     
     {
       "nombre": "Muñequita Peliroja",
       "imagen": "ami/assets/img/Muñe Peliroja V1.jpeg",
-      "descripcion": "Color vibrante que transmite alegría y calidez."
+      "descripcion": "Llena de luz y energía, siempre llega para cambiar el día. Donde está ella, siempre hay un poquito más de alegría"
     },
     
     {
@@ -147,7 +147,7 @@
     {
       "nombre": "Teddy Bear",
       "imagen": "ami/assets/img/Osito.jpeg",
-      "descripcion": "Clásico y tierno, nunca pasa de moda."
+      "descripcion": "Algunos dicen que los ositos solo son peluches… hasta que uno llega a tu vida y se convierte en refugio."
     },
     
     {
@@ -194,7 +194,7 @@
     {
       "nombre": "Salchichita",
       "imagen": "ami/assets/img/Salchichita.jpg",
-      "descripcion": "Pequeñita, divertida y única… imposible no sonreír cuando está cerca."
+      "descripcion": "Le encanta explorar, aunque sus patitas sean cortitas. Su misión es simple: hacerte sonreír todos los días."
     },
 
     {
