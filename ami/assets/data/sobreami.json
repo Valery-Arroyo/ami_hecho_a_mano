@@ -1,1 +1,15 @@
-
+{
+  "productos": [
+    {
+      "nombre": "Paula Zumbado",
+      "imagen": "ami/assets/img/Paulita V1.jpeg",
+      "descripcion": "Creadora de AMI HECHO A MANO"
+    },
+    
+    {
+      "nombre": "Paula Zumbado",
+      "imagen": "ami/assets/img/Paulita Tejiendo.jpeg",
+      "descripcion": "Paulita Tejiendo"
+    }
+  ]
+}
