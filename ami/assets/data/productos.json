@@ -175,12 +175,6 @@
     },
     
     {
-      "nombre": "Tortuguita",
-      "imagen": "ami/assets/img/Tortuguita.jpeg",
-      "descripcion": "Símbolo de calma y ternura."
-    },
-    
-    {
       "nombre": "Unicornio celeste",
       "imagen": "ami/assets/img/Unicornio Pelito Celeste.jpeg",
       "descripcion": "Mágico y suave, lleno de fantasía."
