@@ -1,0 +1,242 @@
+{
+  "productos": [
+    {
+      "nombre": "Pulpitos",
+      "imagen": "ami/assets/img/Pulpitos.jpeg",
+      "precio": "₡XXX",
+      "descripcion": "Dicen que estos pulpitos abrazan más fuerte cuando sienten cariño. Cada uno guarda pequeños miedos… y los convierte en calma."
+    },
+    {
+      "nombre": "Sirenita",
+      "imagen": "ami/assets/img/Poratadita Sirena.jpeg",
+      "precio": "₡XXX",
+      "descripcion": "Nació en lo profundo del mar, donde los sueños brillan distinto. Ahora busca un hogar donde seguir contando historias mágicas."
+    },
+    
+    {
+      "nombre": "Tortuguita",
+      "imagen": "ami/assets/img/Tortuguita.jpeg",
+      "precio": "₡XXX",
+      "descripcion": "Va despacito, pero siempre llega al corazón. Esta tortuguita cree que lo más bonito de la vida es disfrutar cada momento."
+    },
+
+    {
+      "nombre": "Cocodrilito",
+      "imagen": "ami/assets/img/Cocodrilito.jpeg",
+      "precio": "₡XXX",
+      "descripcion": "Aunque parece travieso, en realidad solo quiere cuidar a quien lo adopte. Es más tierno de lo que deja ver."
+    },
+
+    {
+      "nombre": "Nachito Payacito",
+      "imagen": "ami/assets/img/Ami Pelinaranja.jpeg",
+      "precio": "₡XXX",
+      "descripcion": "Nachito cree que cada día necesita una sonrisa. Por eso, llegó para recordarte que la alegría también se abraza."
+    },
+
+    {
+      "nombre": "Bailarina",
+      "imagen": "ami/assets/img/Bailarina.jpeg",
+      "precio": "₡XXX",
+      "descripcion": "Baila en silencio cuando nadie la ve, soñando con escenarios llenos de luz. Solo necesita alguien que crea en su magia"
+    },
+
+    {
+      "nombre": "Conejita",
+      "imagen": "ami/assets/img/Conejita.jpeg",
+      "precio": "₡XXX",
+      "descripcion": "Le encanta esconderse entre abrazos suaves. Esta conejita llegó para llenar de ternura cualquier rincón."
+    },
+
+    {
+      "nombre": "Dinito Stacking Rings",
+      "imagen": "ami/assets/img/Dinito Vista 1.jpeg",
+      "precio": "₡XXX",
+      "descripcion": "Le gusta jugar y descubrir el mundo pieza por pieza. Con él, cada momento se convierte en una pequeña aventura."
+    },
+
+    {
+      "nombre": "Dino el Dinosaurio",
+      "imagen": "ami/assets/img/Dino Colorido V1.jpeg",
+      "precio": "₡XXX",
+      "descripcion": "Viene de un mundo antiguo, pero su corazón es completamente dulce. Solo busca alguien con quien compartir nuevas historias."
+    },
+
+
+    {
+      "nombre": "Dinito con Gorrito",
+      "imagen": "ami/assets/img/Dino Gorrito V1.jpeg",
+      "precio": "₡XXX",
+      "descripcion": "Este pequeño dino cree que la vida es mejor con estilo… y un poquito de diversión."
+    },
+
+    {
+      "nombre": "Dragoncito",
+      "imagen": "ami/assets/img/Dragoncito.jpeg",
+      "precio": "₡XXX",
+      "descripcion": "Aunque podría lanzar fuego, prefiere cuidar sueños. Es un guardián pequeño con un corazón gigante"
+    },
+
+    {
+      "nombre": "AMI's",
+      "imagen": "ami/assets/img/Grupito de AMIs V1.jpeg",
+      "precio": "₡XXX",
+      "descripcion": "Dicen que cada uno nació con una historia distinta, pero todos comparten el mismo deseo: encontrar a alguien que los haga parte de su mundo. No son solo muñequitos… son pequeños compañeros esperando ser elegidos."
+    },
+
+    {
+      "nombre": "Dino-deco",
+      "imagen": "ami/assets/img/Grupito Dinos.jpeg",
+      "precio": "₡XXX",
+      "descripcion": "Suspendidos entre colores y sueños, estos dinos cuidan cada momento con su energía juguetona. Donde están ellos, siempre hay imaginación."
+    },
+
+    {
+      "nombre": "Hamstercito",
+      "imagen": "ami/assets/img/Hamstercito.jpeg",
+      "precio": "₡XXX",
+      "descripcion": "Siempre guarda pequeños tesoros… pero su favorito será el cariño que encuentre contigo."
+    },
+
+    {
+      "nombre": "Jirafita y Leoncito",
+      "imagen": "ami/assets/img/Jirafita y Leo.jpeg",
+      "precio": "₡XXX",
+      "descripcion": "Son diferentes, pero inseparables. Juntos aprendieron que la amistad es el mejor hogar."
+    },
+
+    {
+      "nombre": "Mariposita Beige",
+      "imagen": "ami/assets/img/Mariposita Beige.jpeg",
+      "precio": "₡XXX",
+      "descripcion": "Vuela suave entre sueños tranquilos, llevando calma a donde llega."
+    },
+
+    {
+      "nombre": "Mariposita Negra",
+      "imagen": "ami/assets/img/Mariposita Negra.jpeg",
+      "precio": "₡XXX",
+      "descripcion": "Elegante y misteriosa, guarda historias que solo quienes la quieren logran descubrir."
+    },
+
+    {
+      "nombre": "Mounstruito",
+      "imagen": "ami/assets/img/Mounstruito.jpeg",
+      "precio": "₡XXX",
+      "descripcion": "Dicen que asusta… pero en realidad solo quiere abrazos. Es raro, sí, pero también muy especial."
+    },
+    
+    {
+      "nombre": "Muñequita Pelinegra",
+      "imagen": "ami/assets/img/Muñe Pelinegra V2.jpeg",
+      "descripcion": "Le gusta la calma y los momentos tranquilos. Guarda pequeños secretos en silencio… y solo se abre con quien sabe querer bonito"
+    },
+    
+    {
+      "nombre": "Muñequita Peliroja",
+      "imagen": "ami/assets/img/Muñe Peliroja V1.jpeg",
+      "descripcion": "Llena de luz y energía, siempre llega para cambiar el día. Donde está ella, siempre hay un poquito más de alegría"
+    },
+    
+    {
+      "nombre": "Osita",
+      "imagen": "ami/assets/img/Osita.jpeg",
+      "descripcion": "Siempre está lista para un abrazo, sin importar el día. Es de esos que nunca te sueltan."
+    },
+    
+    {
+      "nombre": "Teddy Bear",
+      "imagen": "ami/assets/img/Osito.jpeg",
+      "descripcion": "Algunos dicen que los ositos solo son peluches… hasta que uno llega a tu vida y se convierte en refugio."
+    },
+    
+    {
+      "nombre": "Perrito",
+      "imagen": "ami/assets/img/Perrito.jpeg",
+      "descripcion": "Fiel desde el primer momento, llegó para acompañarte en cada etapa.."
+    },
+    
+    {
+      "nombre": "Ramito de flores",
+      "imagen": "ami/assets/img/Ramito Flores.jpeg",
+      "descripcion": "No se marchita, porque está hecho de momentos bonitos que duran para siempre."
+    },
+    
+    {
+      "nombre": "Ramito de tulipanes",
+      "imagen": "ami/assets/img/Ramito Tulipanes.jpeg",
+      "descripcion": "Cada flor guarda un sentimiento… solo quien lo recibe entiende su significado."
+    },
+    
+    {
+      "nombre": "Ratoncita",
+      "imagen": "ami/assets/img/Ratoncita.jpeg",
+      "descripcion": "Aparece en silencio por las noches, buscando un lugar donde guardar sueños bonitos. Si llega a ti, es porque te eligió."
+    },
+    
+    {
+      "nombre": "Unicornio Peliceleste",
+      "imagen": "ami/assets/img/Unicornio Pelito Celeste.jpeg",
+      "descripcion": "Nació en un cielo lleno de fantasía, donde todo es posible."
+    },
+    {
+      "nombre": "Unicornio Pelirosado",
+      "imagen": "ami/assets/img/Unicornio Pelito Rosa.jpeg",
+      "descripcion": "Dulce y soñador, cree que la magia existe en cada pequeño detalle."
+    },
+    
+    {
+      "nombre": "Virgencita",
+      "imagen": "ami/assets/img/Virgencita.jpeg",
+      "descripcion": "Hecha con fe y dedicación, para acompañarte en los momentos que más lo necesites."
+    },
+
+    {
+      "nombre": "Salchichita",
+      "imagen": "ami/assets/img/Salchichita.jpg",
+      "descripcion": "Le encanta explorar, aunque sus patitas sean cortitas. Su misión es simple: hacerte sonreír todos los días."
+    },
+
+    {
+      "nombre": "Llaverito",
+      "imagen": "ami/assets/img/Llavero.jpeg",
+      "descripcion": "Siempre contigo, guardando no solo llaves… también pequeños recuerdos."
+    },
+
+    {
+      "nombre": "Conejita Elegante",
+      "imagen": "ami/assets/img/Conejita Ropa.jpg",
+      "descripcion": "Coqueta y segura, sabe que la ternura también puede ser sofisticada."
+    },
+
+    {
+      "nombre": "Anne con E",
+      "imagen": "ami/assets/img/Anne con E.jpg",
+      "descripcion": "Llena de historias y sueños, espera a alguien que quiera escucharla."
+    },
+
+    {
+      "nombre": "Conejita con Sombrero",
+      "imagen": "ami/assets/img/Conejita Sombrero.jpg",
+      "descripcion": "Tiene un aire especial… como si viniera de un cuento antiguo."
+    },
+
+    {
+      "nombre": "Adornito de Unicornios",
+      "imagen": "ami/assets/img/Adornito.jpg",
+      "descripcion": "Pequeño detalle, gran magia. Convierte cualquier espacio en un lugar especial."
+    },
+
+    {
+      "nombre": "Meli, Lupe y Lily",
+      "imagen": "ami/assets/img/Conejitas.png",
+      "descripcion": "Siempre juntas, porque saben que lo más bonito es compartir cada momento."
+    },
+
+    {
+      "nombre": "Ratoncita",
+      "imagen": "ami/assets/img/Ratoncita.jpeg",
+      "descripcion": "En las noches tranquilas, cuida los sueños de quien la abraza. Porque las ratoncitas así… nunca llegan por casualidad"
+    }
+  ]
+}
