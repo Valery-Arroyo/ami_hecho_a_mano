@@ -559,195 +559,198 @@ body {
 .btn-producto:hover {
   background-color: #e8958a;
 }
+
 /* ── Fin de pg Productos ── */
 
 :root {
-    --cream: #F7F2EC;
-    --beige: #EAD7C3;
-    --rose: #EFA69A;
-    --dark: #3D3535;
-    --soft-pink: #F4C7BE;
+  --cream: #F7F2EC;
+  --beige: #EAD7C3;
+  --rose: #EFA69A;
+  --dark: #3D3535;
+  --soft-pink: #F4C7BE;
 }
 
 body {
-    background-color: var(--cream);
-    font-family: 'Nunito', sans-serif;
-    color: var(--dark);
-    margin: 0;
+  background-color: var(--cream);
+  font-family: 'Nunito', sans-serif;
+  color: var(--dark);
+  margin: 0;
 }
 
 
- /* ── Inicio de pg Sobre AMI ── */
- :root {
-    --cream: #F7F2EC;
-    --beige: #EAD7C3;
-    --rose: #EFA69A;
-    --dark: #3D3535;
-    --soft-pink: #F4C7BE;
+/* ── Inicio de pg Sobre AMI ── */
+:root {
+  --cream: #F7F2EC;
+  --beige: #EAD7C3;
+  --rose: #EFA69A;
+  --dark: #3D3535;
+  --soft-pink: #F4C7BE;
 }
 
 /* fondo general */
 body {
-    margin: 0;
-    background-color: var(--cream);
-    font-family: 'Poppins', sans-serif;
-    color: var(--dark);
+  margin: 0;
+  background-color: var(--cream);
+  font-family: 'Poppins', sans-serif;
+  color: var(--dark);
 }
 
 .ami-story {
-    width: 100%;
+  width: 100%;
 }
 
 /* ───────── bloque superior ───────── */
 .ami-hero {
-    background: var(--cream);
-    min-height: 360px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 50px 20px;
+  background: var(--cream);
+  min-height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
 }
 
 .ami-hero-content {
-    max-width: 1000px;
-    width: 100%;
+  max-width: 1000px;
+  width: 100%;
 }
 
 .ami-hero h1 {
-    margin: 0;
-    font-size: clamp(2.5rem, 6vw, 5rem);
-    line-height: 0.95;
-    font-weight: 700;
-    color: var(--dark);
-    letter-spacing: 1px;
+  margin: 0;
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  line-height: 0.95;
+  font-weight: 700;
+  color: var(--dark);
+  letter-spacing: 1px;
 }
 
 .ami-hero p {
-    max-width: 500px;
-    margin-top: 18px;
-    font-size: 1rem;
-    line-height: 1.7;
-    color: var(--dark);
+  max-width: 500px;
+  margin-top: 18px;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--dark);
 }
 
 .sobre-ami {
-    max-width: 1150px;
-    margin: 0 auto;
-    padding: 70px 25px;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 70px 25px;
 }
 
 .ami-top-text {
-    display: grid;
-    grid-template-columns: 1.1fr 1fr;
-    gap: 40px;
-    align-items: start;
-    margin-bottom: 45px;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 40px;
+  align-items: start;
+  margin-bottom: 45px;
 }
 
 .ami-heading h2 {
-    margin: 0;
-    font-size: clamp(2rem, 4vw, 3.5rem);
-    line-height: 1;
-    font-weight: 700;
-    color: var(--dark);
-    text-transform: uppercase;
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 1;
+  font-weight: 700;
+  color: var(--dark);
+  text-transform: uppercase;
 }
 
 .ami-heading h2 span {
-    display: inline-block;
-    margin-top: 10px;
-    background-color: var(--rose);
-    color: white;
-    padding: 4px 12px;
-    border-radius: 10px;
+  display: inline-block;
+  margin-top: 10px;
+  background-color: var(--rose);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 10px;
 }
 
 .ami-lore p {
-    margin-top: 0;
-    margin-bottom: 18px;
-    font-size: 0.98rem;
-    line-height: 1.9;
-    text-align: justify;
+  margin-top: 0;
+  margin-bottom: 18px;
+  font-size: 0.98rem;
+  line-height: 1.9;
+  text-align: justify;
 }
 
 .ami-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    align-items: start;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  align-items: start;
 }
 
 .ami-images {
-    display: flex;
-    flex-direction: column;
-    gap: 75px;
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
 }
 
 .img-item {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .ami-images img,
 .img-item img {
-    width: 100%;
-    height: 280px;
-    object-fit: cover;
-    border-radius: 18px;
-    display: block;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 18px;
+  display: block;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
 }
 
 .img-autor {
-    margin-top: 6px;
-    font-size: 0.9rem;
-    color: var(--dark);
-    font-style: italic;
+  margin-top: 6px;
+  font-size: 0.9rem;
+  color: var(--dark);
+  font-style: italic;
 }
 
 .ami-autor {
-    color: var(--dark);
+  color: var(--dark);
 }
 
 .ami-text-box {
-    background: white;
-    border-radius: 22px;
-    padding: 35px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  background: white;
+  border-radius: 22px;
+  padding: 35px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .ami-text-box h3 {
-    margin-top: 0;
-    margin-bottom: 18px;
-    font-size: 1.8rem;
-    color: var(--dark);
+  margin-top: 0;
+  margin-bottom: 18px;
+  font-size: 1.8rem;
+  color: var(--dark);
 }
 
 .ami-text-box p {
-    margin-bottom: 16px;
-    line-height: 1.9;
-    text-align: justify;
+  margin-bottom: 16px;
+  line-height: 1.9;
+  text-align: justify;
 }
 
 @media (max-width: 900px) {
-    .ami-top-text,
-    .ami-grid {
-        grid-template-columns: 1fr;
-    }
 
-    .ami-images img,
-    .img-item img {
-        height: 240px;
-    }
+  .ami-top-text,
+  .ami-grid {
+    grid-template-columns: 1fr;
+  }
 
-    .ami-hero {
-        min-height: 280px;
-    }
+  .ami-images img,
+  .img-item img {
+    height: 240px;
+  }
+
+  .ami-hero {
+    min-height: 280px;
+  }
 }
- /* ── Fin de pg Sobre AMI ── */
+
+/* ── Fin de pg Sobre AMI ── */
 
 /* ── Inicio pg Acerca de... ── */
 .acerca-banner {
@@ -756,8 +759,8 @@ body {
 
 .acerca-banner img {
   width: 100%;
-  height: auto;     
-  display: block;  
+  height: auto;
+  display: block;
 }
 
 .acerca-info {
@@ -826,19 +829,25 @@ body {
 
 /* ── Incio pg Contacto ── */
 
-.contacto-title {
-  color: var(--dark);
-  font-weight: 600;
+form {
+  margin-top: 50px !important;
+  max-width: 800px;
+  margin: auto;
 }
 
-.btn-dark {
+.form-label {
+  font-weight: 500;
+}
+
+.btn {
   background-color: var(--teal) !important;
-  border: none;
-  border-color: var(--teal) !important;
-}
-
-.btn-dark:hover {
-  opacity: 0.9;
+  color: var(--white) !important;
+  font-weight: 700 !important;
+  border: none !important;
+  border-radius: 50px !important;
+  padding: 10px 20px !important;
+  transition: background-color 0.3s, transform 0.3s !important;
+  margin-top: 35px;
 }
 
 /* ── Fin pg Contacto ── */
@@ -1015,7 +1024,6 @@ body {
   font-size: 0.82rem;
 }
 
-/* iconos */
 .icon-wsp {
   color: #25d366;
 }
