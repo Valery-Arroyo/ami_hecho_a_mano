@@ -210,6 +210,45 @@ body {
   display: block;
 }
 
+@media (max-width: 992px) {
+
+  .nav-item {
+    padding-right: 0;
+    margin-bottom: 5px;
+  }
+
+  .ami-nav .nav-link {
+    font-size: 0.9rem;
+    padding: 8px 12px !important;
+  }
+
+  .navbar-brand {
+    padding-left: 10px !important;
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  .ami-nav .nav-link {
+    font-size: 0.95rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .cart-btn {
+    width: 36px;
+    height: 36px;
+  }
+
+  .cart-badge {
+    width: 14px;
+    height: 14px;
+    font-size: 0.55rem;
+  }
+
+}
+
 
 /* ── Fin del Navbar ── */
 
@@ -913,6 +952,22 @@ h2 {
 .vid9:hover .video-item {
   transform: scale(1.05);
   border: 3px solid var(--teal);
+}
+
+@media (max-width: 992px) {
+
+  .video-item {
+    aspect-ratio: 3 / 4;
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  .video-item {
+    aspect-ratio: 1 / 1;
+  }
+
 }
 
 /* ── Fin pg Más ── */
