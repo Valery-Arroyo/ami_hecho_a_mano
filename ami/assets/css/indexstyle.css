@@ -12,6 +12,21 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+/* ── Inicio Toasts ── */
+.toast {
+  border-radius: 12px;
+}
+
+.toast-header {
+  background-color: var(--cream) !important;
+}
+
+.toast-body {
+  background-color: var(--cream) !important;
+}
+
+/* ── Fin Toasts ── */
+
 /* ── Ribbon ── */
 .ami-ribbon {
   background: var(--yellow);
@@ -124,7 +139,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* ← esto empuja brand a la izq y nav a la der */
 }
 
 .nav-item {
@@ -191,6 +205,11 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
 
 /* ── Fin del Navbar ── */
 
@@ -562,44 +581,11 @@ body {
 
 /* ── Fin de pg Productos ── */
 
-:root {
-  --cream: #F7F2EC;
-  --beige: #EAD7C3;
-  --rose: #EFA69A;
-  --dark: #3D3535;
-  --soft-pink: #F4C7BE;
-}
-
-body {
-  background-color: var(--cream);
-  font-family: 'Nunito', sans-serif;
-  color: var(--dark);
-  margin: 0;
-}
-
-
 /* ── Inicio de pg Sobre AMI ── */
-:root {
-  --cream: #F7F2EC;
-  --beige: #EAD7C3;
-  --rose: #EFA69A;
-  --dark: #3D3535;
-  --soft-pink: #F4C7BE;
-}
-
-/* fondo general */
-body {
-  margin: 0;
-  background-color: var(--cream);
-  font-family: 'Poppins', sans-serif;
-  color: var(--dark);
-}
-
 .ami-story {
   width: 100%;
 }
 
-/* ───────── bloque superior ───────── */
 .ami-hero {
   background: var(--cream);
   min-height: 360px;
@@ -782,6 +768,14 @@ body {
   border-radius: 20px;
   display: block;
   box-shadow: 0 10px 25px rgba(61, 53, 53, 0.15);
+  border: 4px solid var(--rose);
+}
+
+.acerca-img img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 15px 35px rgba(61, 53, 53, 0.25);
+  border-color: var(--rose);
+  background-color: var(--rose);
 }
 
 .acerca-tag {
@@ -793,7 +787,7 @@ body {
   border-radius: 8px;
   margin-bottom: 18px;
   letter-spacing: 1px;
-  background-color: var(--rose);
+  background-color: var(--yellow);
 }
 
 .acerca-content h2 {
@@ -812,12 +806,8 @@ body {
 }
 
 @media (max-width: 900px) {
-  .acerca-wrapper {
+  .acerca-wraper {
     grid-template-columns: 1fr;
-  }
-
-  .acerca-overlay h1 {
-    font-size: 2.8rem;
   }
 
   .acerca-content h2 {
@@ -851,15 +841,81 @@ form {
 }
 
 #mapa {
-height: 400px;
-width: 100%;
-border-radius: 10px;
-border: 2px solid #ddd;
-margin-top: 10px;
-
+  height: 400px;
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  margin-top: 10px;
 }
 
 /* ── Fin pg Contacto ── */
+
+/* ── Inicio pg Más ── */
+
+.videos-section {
+  background-color: var(--cream);
+}
+
+.video-item {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  height: 700px;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+  border: 3px solid transparent;
+}
+
+h2 {
+  color: var(--dark) !important;
+}
+
+.vid1:hover .video-item {
+  transform: scale(1.05);
+  border: 3px solid var(--yellow);
+}
+
+.vid2:hover .video-item {
+  transform: scale(1.05);
+  border: 3px solid var(--rose);
+}
+
+.vid3:hover .video-item {
+  transform: scale(1.05);
+  border: 3px solid var(--teal);
+}
+
+.vid4:hover .video-item {
+  transform: scale(1.05);
+  border: 3px solid var(--yellow);
+}
+
+.vid5:hover .video-item {
+  transform: scale(1.05);
+  border: 3px solid var(--rose);
+}
+
+.vid6:hover .video-item {
+  transform: scale(1.05);
+  border: 3px solid var(--teal);
+}
+
+.vid7:hover .video-item {
+  transform: scale(1.05);
+  border: 3px solid var(--yellow);
+}
+
+.vid8:hover .video-item {
+  transform: scale(1.05);
+  border: 3px solid var(--rose);
+}
+
+.vid9:hover .video-item {
+  transform: scale(1.05);
+  border: 3px solid var(--teal);
+}
+
+/* ── Fin pg Más ── */
 
 /* ── Footer ── */
 .ami-footer {

@@ -2,11 +2,9 @@ let mapa;
 let servicioRutas;
 let renderizadorRutas;
 
-/* Ubicación fija del negocio */
-
 let ubicacionNegocio = {
-    lat: 10.0163,
-    lng: -84.2190
+    lat: 10.10722,
+    lng: -84.38972
 };
 
 function iniciarMapa() {
@@ -19,8 +17,6 @@ function iniciarMapa() {
         }
     );
 
-    /* Crear servicios de rutas */
-
     servicioRutas =
         new google.maps.DirectionsService();
 
@@ -29,8 +25,6 @@ function iniciarMapa() {
 
     renderizadorRutas.setMap(mapa);
 
-    /* Marcador del negocio */
-
     new google.maps.Marker({
         position: ubicacionNegocio,
         map: mapa,
@@ -38,8 +32,6 @@ function iniciarMapa() {
     });
 
 }
-
-/* Función para calcular ruta */
 
 function trazarRuta() {
 
