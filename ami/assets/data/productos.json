@@ -38,7 +38,7 @@
       "nombre": "Bailarina",
       "imagen": "ami/assets/img/Bailarina.jpeg",
       "precio": "₡XXX",
-      "descripcion": "Baila en silencio cuando nadie la ve, soñando con escenarios llenos de luz. Solo necesita alguien que crea en su magia"
+      "descripcion": "Baila en silencio cuando nadie la ve, soñando con escenarios llenos de luz. Solo necesita alguien que crea en su magia."
     },
 
     {
@@ -74,7 +74,7 @@
       "nombre": "Dragoncito",
       "imagen": "ami/assets/img/Dragoncito.jpeg",
       "precio": "₡XXX",
-      "descripcion": "Aunque podría lanzar fuego, prefiere cuidar sueños. Es un guardián pequeño con un corazón gigante"
+      "descripcion": "Aunque podría lanzar fuego, prefiere cuidar sueños. Es un guardián pequeño con un corazón gigante."
     },
 
     {
@@ -129,13 +129,13 @@
     {
       "nombre": "Muñequita Pelinegra",
       "imagen": "ami/assets/img/Muñe Pelinegra V2.jpeg",
-      "descripcion": "Le gusta la calma y los momentos tranquilos. Guarda pequeños secretos en silencio… y solo se abre con quien sabe querer bonito"
+      "descripcion": "Le gusta la calma y los momentos tranquilos. Guarda pequeños secretos en silencio… y solo se abre con quien sabe querer bonito."
     },
     
     {
       "nombre": "Muñequita Peliroja",
       "imagen": "ami/assets/img/Muñe Peliroja V1.jpeg",
-      "descripcion": "Llena de luz y energía, siempre llega para cambiar el día. Donde está ella, siempre hay un poquito más de alegría"
+      "descripcion": "Llena de luz y energía, siempre llega para cambiar el día. Donde está ella, siempre hay un poquito más de alegría."
     },
     
     {
@@ -153,7 +153,7 @@
     {
       "nombre": "Perrito",
       "imagen": "ami/assets/img/Perrito.jpeg",
-      "descripcion": "Fiel desde el primer momento, llegó para acompañarte en cada etapa.."
+      "descripcion": "Fiel desde el primer momento, llegó para acompañarte en cada etapa."
     },
     
     {
@@ -236,7 +236,7 @@
     {
       "nombre": "Ratoncita",
       "imagen": "ami/assets/img/Ratoncita.jpeg",
-      "descripcion": "En las noches tranquilas, cuida los sueños de quien la abraza. Porque las ratoncitas así… nunca llegan por casualidad"
+      "descripcion": "En las noches tranquilas, cuida los sueños de quien la abraza. Porque las ratoncitas así, nunca llegan por casualidad."
     }
   ]
 }
