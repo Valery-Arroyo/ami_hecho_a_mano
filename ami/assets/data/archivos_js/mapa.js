@@ -3,8 +3,8 @@ let servicioRutas;
 let renderizadorRutas;
 
 let ubicacionNegocio = {
-    lat: 10.10722,
-    lng: -84.38972
+    lat: 10.116096,
+    lng: -84.422523
 };
 
 function iniciarMapa() {

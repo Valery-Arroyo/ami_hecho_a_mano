@@ -16,9 +16,6 @@ document.getElementById("email").value.trim();
 let fecha =
 document.getElementById("fechaNacimiento").value;
 
-let rango =
-document.getElementById("rangoIngreso").value;
-
 let descripcion =
 document.getElementById("descripcionPedido").value.trim();
 
@@ -59,13 +56,6 @@ return;
 
 }
 
-if(rango === "") {
-
-alert("Debe ingresar el rango de ingreso");
-return;
-
-}
-
 if(descripcion === "") {
 
 alert("Debe ingresar la descripción del pedido");
@@ -80,16 +70,12 @@ return;
 
 }
 
-/* Validar grado académico */
-
 if(grado === "") {
 
 alert("Debe seleccionar un grado académico");
 return;
 
 }
-
-/* Calcular edad */
 
 let fechaNac =
 new Date(fecha);
@@ -115,8 +101,6 @@ edad--;
 
 document.getElementById("edad").value =
 edad;
-
-/* Enviar formulario */
 
 emailjs.sendForm(
 "service_b2myfst",
