@@ -27,25 +27,6 @@ body {
 
 /* ── Fin Toasts ── */
 
-/* ── Ribbon ── */
-.ami-ribbon {
-  background: var(--yellow);
-  text-align: center;
-  padding: 0.42rem 1rem;
-  font-size: 0.72rem;
-  font-weight: 800;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--dark);
-}
-
-.ami-ribbon em {
-  color: #ecc673;
-  font-style: normal;
-}
-
-/* ── Fin del Ribbon ── */
-
 /* ── Navbar ── */
 .ami-nav {
   background: var(--white) !important;
