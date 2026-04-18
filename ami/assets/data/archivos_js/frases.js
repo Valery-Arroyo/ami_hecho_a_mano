@@ -24,11 +24,51 @@ $(document).ready(function () {
                     }
                 );
 
-            document.addEventListener("mousemove", () => {
+            const sound =
+                document.getElementById("toastSound");
 
-                toast.show();
+            function mostrarToast() {
 
-            }, { once: true });
+                /* Desbloquear audio */
+                sound.play()
+                .then(() => {
+
+                    sound.pause();
+                    sound.currentTime = 0;
+
+                    /* Mostrar toast */
+                    toast.show();
+
+                })
+                .catch(() => {
+
+                    /* Si falla igual mostrar toast */
+                    toast.show();
+
+                });
+
+            }
+
+            /* PC */
+            document.addEventListener(
+                "mousemove",
+                mostrarToast,
+                { once: true }
+            );
+
+            /* Móvil */
+            document.addEventListener(
+                "touchstart",
+                mostrarToast,
+                { once: true }
+            );
+
+            /* Seguridad */
+            document.addEventListener(
+                "click",
+                mostrarToast,
+                { once: true }
+            );
 
         }
     );
