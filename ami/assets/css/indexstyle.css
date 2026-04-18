@@ -25,6 +25,32 @@ body {
   background-color: var(--cream) !important;
 }
 
+.toast-container {
+  z-index: 9999;
+}
+
+/* Ajuste para móviles */
+@media (max-width: 576px) {
+
+  .toast-container {
+
+    right: 0 !important;
+    left: 0 !important;
+    bottom: 0 !important;
+
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .toast {
+
+    width: 90%;
+    max-width: 350px;
+
+  }
+
+}
 /* ── Fin Toasts ── */
 
 /* ── Navbar ── */
