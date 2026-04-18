@@ -9,7 +9,7 @@
 
 body {
   background: var(--cream);
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
 }
 
 /* ── Inicio Toasts ── */
@@ -29,7 +29,6 @@ body {
   z-index: 9999;
 }
 
-/* Ajuste para móviles */
 @media (max-width: 576px) {
 
   .toast-container {

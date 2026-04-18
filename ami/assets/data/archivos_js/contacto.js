@@ -19,15 +19,12 @@ $(document).ready(function () {
         let generoSeleccionado =
             $('input[name="genero"]:checked').val();
 
-        /* Expresiones regulares */
 
         let letrasRegex =
             /^[A-Za-zÁÉÍÓÚáéíóúñÑ ]+$/;
 
         let emailRegex =
             /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
-
-        /* VALIDACIONES */
 
         if (nombre === "" ||
             !letrasRegex.test(nombre)) {
