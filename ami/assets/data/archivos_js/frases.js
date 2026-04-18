@@ -24,7 +24,11 @@ $(document).ready(function () {
                     }
                 );
 
-            toast.show();
+            document.addEventListener("mousemove", () => {
+
+                toast.show();
+
+            }, { once: true });
 
         }
     );
