@@ -1,128 +1,143 @@
-(function() {
+$(document).ready(function () {
 
-emailjs.init("jf2eYk2khr_yasKoe");
+    emailjs.init("jf2eYk2khr_yasKoe");
 
-document.getElementById("formRegistro")
-.addEventListener("submit", function(e) {
+    $("#fechaNacimiento").attr(
+        "max",
+        new Date().toISOString().split("T")[0]
+    );
 
-e.preventDefault();
+    $("#formRegistro").on("submit", function (e) {
 
-let nombre =
-document.getElementById("nombre").value.trim();
+        e.preventDefault();
 
-let email =
-document.getElementById("email").value.trim();
+        let nombre = $("#nombre").val().trim();
+        let email = $("#email").val().trim();
+        let fecha = $("#fechaNacimiento").val();
+        let descripcion = $("#descripcionPedido").val().trim();
+        let grado = $("#gradoAcademico").val();
+        let generoSeleccionado =
+            $('input[name="genero"]:checked').val();
 
-let fecha =
-document.getElementById("fechaNacimiento").value;
+        /* Expresiones regulares */
 
-let descripcion =
-document.getElementById("descripcionPedido").value.trim();
+        let letrasRegex =
+            /^[A-Za-zÁÉÍÓÚáéíóúñÑ ]+$/;
 
-let grado =
-document.getElementById("gradoAcademico").value;
+        let emailRegex =
+            /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
 
-let generoSeleccionado =
-document.querySelector('input[name="genero"]:checked');
+        /* VALIDACIONES */
 
-/* Validaciones */
+        if (nombre === "" ||
+            !letrasRegex.test(nombre)) {
 
-let letrasRegex =
-/^[A-Za-zÁÉÍÓÚáéíóúñÑ ]+$/;
+            alert("Debe ingresar un nombre válido (solo letras)");
+            return;
 
-let emailRegex =
-/^[^@\s]+@[^@\s]+\.[^@\s]+$/;
+        }
 
-if(nombre === "" ||
-!letrasRegex.test(nombre)) {
+        if (email === "" ||
+            !emailRegex.test(email)) {
 
-alert("Debe ingresar un nombre válido (solo letras)");
-return;
+            alert("Debe ingresar un correo válido con @");
+            return;
 
-}
+        }
 
-if(email === "" ||
-!emailRegex.test(email)) {
+        if (fecha === "") {
 
-alert("Debe ingresar un correo válido con @");
-return;
+            alert("Debe seleccionar la fecha de nacimiento");
+            return;
 
-}
+        }
 
-if(fecha === "") {
+        let fechaNac = new Date(fecha);
+        let hoy = new Date();
 
-alert("Debe seleccionar la fecha de nacimiento");
-return;
+        hoy.setHours(0,0,0,0);
 
-}
+        if (fechaNac > hoy) {
 
-if(descripcion === "") {
+            alert("La fecha no puede ser mayor al día actual");
+            return;
 
-alert("Debe ingresar la descripción del pedido");
-return;
+        }
 
-}
+        if (descripcion === "") {
 
-if(generoSeleccionado === null) {
+            alert("Debe ingresar la descripción del pedido");
+            return;
 
-alert("Debe seleccionar un género");
-return;
+        }
 
-}
+        if (!generoSeleccionado) {
 
-if(grado === "") {
+            alert("Debe seleccionar un género");
+            return;
 
-alert("Debe seleccionar un grado académico");
-return;
+        }
 
-}
+        if (grado === "") {
 
-let fechaNac =
-new Date(fecha);
+            alert("Debe seleccionar un grado académico");
+            return;
 
-let hoy =
-new Date();
+        }
 
-let edad =
-hoy.getFullYear() -
-fechaNac.getFullYear();
+        let edad =
+            hoy.getFullYear() -
+            fechaNac.getFullYear();
 
-let mes =
-hoy.getMonth() -
-fechaNac.getMonth();
+        let mes =
+            hoy.getMonth() -
+            fechaNac.getMonth();
 
-if(mes < 0 ||
-(mes === 0 &&
-hoy.getDate() < fechaNac.getDate())) {
+        if (mes < 0 ||
+            (mes === 0 &&
+             hoy.getDate() < fechaNac.getDate())) {
 
-edad--;
+            edad--;
 
-}
+        }
 
-document.getElementById("edad").value =
-edad;
+        if (edad < 15) {
 
-emailjs.sendForm(
-"service_b2myfst",
-"template_g1vy3vn",
-this
-)
+            alert("Debe tener al menos 15 años");
+            return;
 
-.then(function() {
+        }
 
-alert("Formulario enviado 💌");
+        if (edad > 100) {
 
-document.getElementById("formRegistro").reset();
+            alert("Edad no válida");
+            return;
 
-},
+        }
 
-function(error) {
+        $("#edad").val(edad);
 
-alert("❌ Error al enviar: "
-+ JSON.stringify(error));
+        emailjs.sendForm(
+            "service_b2myfst",
+            "template_g1vy3vn",
+            this
+        )
+
+        .then(function () {
+
+            alert("Formulario enviado 💌");
+
+            $("#formRegistro")[0].reset();
+
+        })
+
+        .catch(function (error) {
+
+            alert("❌ Error al enviar: "
+                + JSON.stringify(error));
+
+        });
+
+    });
 
 });
-
-});
-
-})();

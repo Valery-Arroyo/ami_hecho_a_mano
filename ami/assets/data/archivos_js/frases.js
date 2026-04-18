@@ -29,14 +29,11 @@ $(document).ready(function () {
 
             function mostrarToast() {
 
-                /* Desbloquear audio */
                 sound.play()
                 .then(() => {
 
                     sound.pause();
                     sound.currentTime = 0;
-
-                    /* Mostrar toast */
                     toast.show();
 
                 })
@@ -48,22 +45,16 @@ $(document).ready(function () {
                 });
 
             }
-
-            /* PC */
             document.addEventListener(
                 "mousemove",
                 mostrarToast,
                 { once: true }
             );
-
-            /* Móvil */
             document.addEventListener(
                 "touchstart",
                 mostrarToast,
                 { once: true }
             );
-
-            /* Seguridad */
             document.addEventListener(
                 "click",
                 mostrarToast,
