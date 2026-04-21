@@ -109,13 +109,13 @@ body {
 
 .brand-ami .cm {
   color: var(--rose);
-  letter-spacing: -8px;
+  letter-spacing: -6px;
 }
 
 .brand-ami .ci {
   color: var(--teal);
   font-size: 35px;
-  letter-spacing: -7px;
+  letter-spacing: -8px;
 }
 
 .brand-sub {
