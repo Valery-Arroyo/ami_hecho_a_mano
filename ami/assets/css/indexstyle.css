@@ -104,18 +104,18 @@ body {
 
 .brand-ami .ca {
   color: var(--yellow);
-  letter-spacing: -5px;
+  letter-spacing: -4.5px;
 }
 
 .brand-ami .cm {
   color: var(--rose);
-  letter-spacing: -5px;
+  letter-spacing: -4.5px;
 }
 
 .brand-ami .ci {
   color: var(--teal);
   font-size: 35px;
-  letter-spacing: -8px;
+  letter-spacing: -4.sx;
 }
 
 .brand-sub {
