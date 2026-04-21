@@ -3,7 +3,6 @@ $(document).ready(function () {
     const sound = document.getElementById("toastSound");
     let sonidoHabilitado = false;
 
-    // Habilitar sonido una sola vez
     function habilitarSonido() {
         if (!sonidoHabilitado) {
             sound.play()
@@ -43,4 +42,4 @@ $(document).ready(function () {
 
         toast.show();
     });
-});
+}); 

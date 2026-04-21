@@ -10,24 +10,31 @@ $(document).ready(function () {
             contenedorImagenes.html("");
             contenedorTexto.html("<h3>Más que crochet...</h3>");
 
-            /* Cargar imágenes */
-            $.each(data.imagenes, function (index, item) {
+            if (data && data.imagenes && data.sobreAmi && data.sobreAmi.parrafos) {
 
-                contenedorImagenes.append(`
-                    <div class="img-item">
-                        <img src="${item.imagen}" alt="${item.nombre}">
-                    </div>
-                `);
+                /* Cargar imágenes */
+                $.each(data.imagenes, function (index, item) {
 
-            });
+                    contenedorImagenes.append(`
+                        <div class="img-item">
+                            <img src="${item.imagen}" alt="${item.nombre}">
+                        </div>
+                    `);
 
-            $.each(data.sobreAmi.parrafos, function (index, parrafo) {
+                });
+                $.each(data.sobreAmi.parrafos, function (index, parrafo) {
 
-                contenedorTexto.append(`
-                    <p>${parrafo.texto}</p>
-                `);
+                    contenedorTexto.append(`
+                        <p>${parrafo.texto}</p>
+                    `);
 
-            });
+                });
+
+            } else {
+
+                console.warn("El JSON no trae contenido esperado");
+
+            }
 
         }
     )
